@@ -1,3 +1,3 @@
-import { crearArchivo } from "./tabla.js";
-import argv from "./03-basesNode.js";
+import { crearArchivo } from "./helpers/tabla.js";
+import argv from "./config/yargs.js";
 crearArchivo(argv.b, argv.l, argv.h);
